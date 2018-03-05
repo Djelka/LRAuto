@@ -36,6 +36,12 @@ body
 	margin-top:-20px;
 }
 
+ .footer-content-left
+ {
+	 color:#FFFFFF;
+	 font-size:18px;
+ }
+
 .iframe-content
 {
 	width:100%;
@@ -49,6 +55,7 @@ body
 	height:50px;
 	padding-top:7px;
 	font-size:22px;
+	border-radius:0px !important;
 }
 
 .content-lbc
@@ -136,8 +143,15 @@ body
 	object-fit: cover
 }
 
+.pre-footer
+{
+		background-color:#f56b2a;
+		height:10px;
+}
+
 .footer
 {
+	padding-top:25px;
 	background-color:#333331;
 	height:300px;
 }
